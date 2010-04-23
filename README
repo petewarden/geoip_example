@@ -1,0 +1,17 @@
+A simple example showing how to use the GeoIP API in PHP with the free database 
+from http://maxmind.com
+
+Before you can run this you'll need to install the data files, either using the
+one included in this package or downloading the latest from 
+http://www.maxmind.com/app/geolitecity
+Once you have the GeoLiteCity.dat file downloaded and unzipped, copy it to
+/usr/local/share/GeoIP (or update the code below to reflect the location you've
+actually installed it in).
+ 
+Based on code from http://pear.php.net/package/Net_GeoIP/ with the PEAR 
+dependencies removed. Adapted by Pete Warden <pete@petewarden.com>
+For more details see http://petewarden.typepad.com/ and see
+http://web.mailana.com/labs/geoip_example/ for a live example.
+ 
+The classes are licensed under the LGPL, but the index script is freely reusable
+with no restrictions.
